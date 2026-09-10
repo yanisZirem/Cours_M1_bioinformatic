@@ -1,5 +1,5 @@
 # Jeu de données d'exemple Introduction à R (Bioinfomatique)
-
+# Enseingant : Yanis Zirem | E-mail : yanis.zirem@univ-lille.fr 
 Ces deux fichiers sont des **données synthétiques** (générées, pas réelles) conçues pour être cohérentes avec les exemples de code du cours et de l'exercice pratique 
 
 ## Fichiers
