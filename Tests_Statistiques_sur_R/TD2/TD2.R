@@ -14,7 +14,7 @@ patients$stade <- factor(patients$stade, levels = c("I", "II", "III", "IV"), ord
 patients$tabac <- factor(patients$tabac, levels = c("non", "ancien", "actif"))
 
 # ---------------------------------------------------------------------
-# EXERCICE 1 : ANOVA à un facteur (20 min)
+# EXERCICE 1 : ANOVA à un facteur
 # Fichier : expression_soustypes.csv (gene_X mesuré dans 3 sous-types tumoraux)
 # ---------------------------------------------------------------------
 st <- read.csv("expression_soustypes.csv", stringsAsFactors = TRUE)
@@ -40,7 +40,7 @@ str(st)
 # Réponse :
 
 # ---------------------------------------------------------------------
-# EXERCICE 2 : Kruskal-Wallis (15 min)
+# EXERCICE 2 : Kruskal-Wallis
 # Variable IL6 dans les mêmes 3 sous-types
 # ---------------------------------------------------------------------
 # A FAIRE 2.1 : boxplot de IL6, Shapiro par groupe. Quel test choisir ?
@@ -58,7 +58,7 @@ str(st)
 # Réponse :
 
 # ---------------------------------------------------------------------
-# EXERCICE 3 : variables catégorielles, chi2 et Fisher (25 min)
+# EXERCICE 3 : variables catégorielles, chi2 et Fisher 
 # ---------------------------------------------------------------------
 # A FAIRE 3.1 : tableau croisé traitement x reponse et pourcentages de réponse par traitement.
 # Indice : tab <- table(patients$traitement, patients$reponse) ; prop.table(tab, margin = 1)
@@ -85,7 +85,7 @@ tab3
 # Réponse :
 
 # ---------------------------------------------------------------------
-# EXERCICE 4 : corrélation (20 min)
+# EXERCICE 4 : corrélation
 # ---------------------------------------------------------------------
 # A FAIRE 4.1 : nuage de points age ~ expr_GENE1 (plot), puis cor.test (Pearson). Interprétez r et p.
 
@@ -106,7 +106,7 @@ data(anscombe)
 # Réponse :
 
 # ---------------------------------------------------------------------
-# EXERCICE 5 : tests multiples (25 min)
+# EXERCICE 5 : tests multiples
 # Fichier : expression_genes.csv (300 gènes ; 10 tumeurs T1-T10, 10 tissus normaux N1-N10)
 # ---------------------------------------------------------------------
 g <- read.csv("expression_genes.csv")
